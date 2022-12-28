@@ -16,3 +16,5 @@ Passage is an authentication platform that enables developers to add biometric a
 [Authenticating with Passage](./01-Login)
 <br />
 [Login with Profile Page](./02-Login-With-Profile)
+<br />
+[AuthGuard example to protect a page](./03-AuthGuard/)
