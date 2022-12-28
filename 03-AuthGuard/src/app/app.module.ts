@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { BannerComponent } from 'src/components/banner/banner.component';
 import { HomeComponent } from 'src/app/home/home.component';
 import { DashboardComponent } from 'src/app/dashboard/dashboard.component';
+import { GuardedPageComponent } from './guarded-page/guarded-page.component';
 
 @NgModule({
   declarations: [
@@ -14,6 +15,7 @@ import { DashboardComponent } from 'src/app/dashboard/dashboard.component';
     BannerComponent,
     HomeComponent,
     DashboardComponent,
+    GuardedPageComponent,
   ],
   imports: [
     BrowserModule,

@@ -4,19 +4,18 @@
     </div>
     <div class="message">
         You successfully signed in with Passage.
-        <br/><br/>
+        <br /><br />
         Your username is: <b>{{ username }}
         </b>
     </div>
-
 </div>
 <div class="dashboard" *ngIf="!isLoading && !isAuthenticated">
     <div class="title">
-       Unauthorized 
+        Unauthorized
     </div>
     <div class="message">
         You have not logged in and cannot view the dashboard.
-        <br/><br/>
-        <a href="/" className={styles.link}>Login to continue.</a> 
+        <br /><br />
+        <a href="/" className={styles.link}>Login to continue.</a>
     </div>
 </div>
